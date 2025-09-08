@@ -12,7 +12,7 @@ You should be able to ping `server.kubernetes.local` based on the `/etc/hosts` D
 
 ```bash
 curl --cacert ca.crt \
-  https://server.kubernetes.local:6443/version
+  https://server.sta.lan:6443/version
 ```
 
 ```text
