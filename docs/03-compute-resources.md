@@ -29,7 +29,8 @@ Now it's your turn to create a `machines.txt` file with the details for the thre
 ## Configuring SSH Access
 
 SSH will be used to configure the machines in the cluster. Verify that you have `root` SSH access to each machine listed in your machine database. You may need to enable root SSH access on each node by updating the sshd_config file and restarting the SSH server.
-sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config
+
+`sudo sed -i 's/^#\?PasswordAuthentication.*/PasswordAuthentication yes/' /etc/ssh/sshd_config`
 
 ### Enable root SSH Access
 
